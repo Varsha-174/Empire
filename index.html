@@ -1,0 +1,1984 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4WLAaRZCcxxhszn2N7aFQNTXj_-wuCrXf3Wno-9izS4CcGZQDwvobLOwkUg5k8fAK7bk&usqp=CAU">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+
+    <title>Collection
+
+    </title>
+    <style>
+        *{
+            margin: 0;
+        }
+        nav{
+            height:90px;
+            width:100%;
+            /* background-color:darkblue; */
+            background:rgba(193, 190, 190, 0.5);
+            backdrop-filter:blur(8px);
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            padding: 5px;
+            position:fixed;
+            top: 0;
+            z-index:100;
+            margin-right:5px;
+            
+        }
+        .nav-logo img{
+            height:70px;
+            width:70px;
+            margin-right:660px;
+            margin-top:5px;
+            border-radius: 50%;
+            border:2px solid gold;
+
+        }
+        .nav-items a{
+           
+            text-decoration: none;
+            /* padding:20px 5px; */
+            display:inline-block;
+            font-size:15px;
+            /* align-items: center; */
+            justify-content: center;
+            margin-top:50px;
+            color:rgb(26, 27, 27);
+            margin-right:15px;
+            justify-content: space-around;
+            /* padding:10px; */
+
+                  
+            
+        }
+        .nav-items:hover a{
+            filter: blur(2px);
+        }
+        .nav-items a:hover{
+            color: rgb(184, 35, 154);
+            filter:blur(0px);
+        }
+       .dress img{
+        height:500px;
+        width:100%;
+        margin-top:100px;
+       }
+       .dress{
+        height: 500px;
+        width:100%;
+       }
+       .cloth{
+            background-image:url("bg2.jpg");
+            height:850px;
+            width:100%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+        }
+        .saree{
+            height:350px;
+            width:300px;
+            background-color: aliceblue;
+            margin-left:330px;
+            margin-top:10px;
+            border-top-right-radius:10px;
+            border-top-left-radius:10px;
+            border-bottom-left-radius:10px;
+            border-bottom-right-radius:10px;
+        }
+        .saree img{
+            height:200px;
+            width:250px;
+            margin:24px;
+            border-top-right-radius:10px;
+            border-top-left-radius:10px;
+            border-bottom-left-radius:10px;
+            border-bottom-right-radius:10px;
+        }
+        .saree p{
+            color:gray;
+            margin-top:5px;
+            margin-left:10px;
+        }
+        .saree h2{
+            margin-left:10px;
+        }
+        .rating1{
+            height:30px;
+            width:50px;
+            background-color: rgb(16, 192, 34);
+            display: flex;
+            align-items: center;
+            border-top-right-radius:5px;
+            border-top-left-radius:5px;
+            border-bottom-left-radius:5px;
+            border-bottom-right-radius:5px;
+            margin-left:230px;
+            margin-top:-50px;
+
+        }
+        .rating1 p{
+            color: rgb(245, 240, 240);
+            margin-top:1px;
+        }
+        .rating1 span{
+            color: rgb(245, 240, 240);
+            height:1px;
+            width:1px;
+            margin-top:-20px;
+            font-size:20px;
+            
+        }
+        .saree h4{
+            margin-left:250px;
+            color: rgb(76, 73, 73);
+            margin-top:3px;
+        }
+        .lehanga{
+            height:350px;
+            width:300px;
+            background-color: aliceblue;
+            margin-left:640px;
+            margin-top:-350px;
+            border-top-right-radius:10px;
+            border-top-left-radius:10px;
+            border-bottom-left-radius:10px;
+            border-bottom-right-radius:10px;
+        }
+        .lehanga img{
+            height:200px;
+            width:250px;
+            margin:24px;
+            border-top-right-radius:10px;
+            border-top-left-radius:10px;
+            border-bottom-left-radius:10px;
+            border-bottom-right-radius:10px;
+        }
+        .lehanga p{
+            color:gray;
+            margin-top:5px;
+            margin-left:10px;
+        }
+        .lehanga h2{
+            margin-left:10px;
+        }
+        .rating2{
+            height:30px;
+            width:50px;
+            background-color: rgb(16, 192, 34);
+            display: flex;
+            align-items: center;
+            border-top-right-radius:5px;
+            border-top-left-radius:5px;
+            border-bottom-left-radius:5px;
+            border-bottom-right-radius:5px;
+            margin-left:230px;
+            margin-top:-50px;
+
+        }
+        .rating2 p{
+            color: rgb(245, 240, 240);
+            margin-top:1px;
+        }
+        .rating2 span{
+            color: rgb(245, 240, 240);
+            height:1px;
+            width:1px;
+            margin-top:-20px;
+            font-size:20px;
+            
+        }
+        .lehanga h4{
+            margin-left:250px;
+            color: rgb(76, 73, 73);
+            margin-top:3px;
+        }
+        .kurtis{
+            height:350px;
+            width:300px;
+            background-color: aliceblue;
+            margin-left:20px;
+            margin-top:-350px;
+            border-top-right-radius:10px;
+            border-top-left-radius:10px;
+            border-bottom-left-radius:10px;
+            border-bottom-right-radius:10px;
+        }
+        .kurtis img{
+            height:200px;
+            width:250px;
+            margin:24px;
+            border-top-right-radius:10px;
+            border-top-left-radius:10px;
+            border-bottom-left-radius:10px;
+            border-bottom-right-radius:10px;
+        }
+        .kurtis p{
+            color:gray;
+            margin-top:5px;
+            margin-left:10px;
+        }
+        .kurtis h2{
+            margin-left:10px;
+        }
+        .rating3{
+            height:30px;
+            width:50px;
+            background-color: rgb(16, 192, 34);
+            display: flex;
+            align-items: center;
+            border-top-right-radius:5px;
+            border-top-left-radius:5px;
+            border-bottom-left-radius:5px;
+            border-bottom-right-radius:5px;
+            margin-left:230px;
+            margin-top:-50px;
+
+        }
+        .rating3 p{
+            color: rgb(245, 240, 240);
+            margin-top:1px;
+        }
+        .rating3 span{
+            color: rgb(245, 240, 240);
+            height:1px;
+            width:1px;
+            margin-top:-20px;
+            font-size:20px;
+            
+        }
+        .kurtis h4{
+            margin-left:250px;
+            color: rgb(76, 73, 73);
+            margin-top:3px;
+        } 
+        .salwar{
+            height:350px;
+            width:300px;
+            background-color: aliceblue;
+            margin-left:950px;
+            margin-top:-350px;
+            border-top-right-radius:10px;
+            border-top-left-radius:10px;
+            border-bottom-left-radius:10px;
+            border-bottom-right-radius:10px;
+        }
+        .salwar img{
+            height:200px;
+            width:250px;
+            margin:24px;
+            border-top-right-radius:10px;
+            border-top-left-radius:10px;
+            border-bottom-left-radius:10px;
+            border-bottom-right-radius:10px;
+        }
+        .salwar p{
+            color:gray;
+            margin-top:5px;
+            margin-left:10px;
+        }
+        .salwar h2{
+            margin-left:10px;
+        }
+        .rating4{
+            height:30px;
+            width:50px;
+            background-color: rgb(16, 192, 34);
+            display: flex;
+            align-items: center;
+            border-top-right-radius:5px;
+            border-top-left-radius:5px;
+            border-bottom-left-radius:5px;
+            border-bottom-right-radius:5px;
+            margin-left:230px;
+            margin-top:-50px;
+
+        }
+        .rating4 p{
+            color: rgb(245, 240, 240);
+            margin-top:1px;
+        }
+        .rating4 span{
+            color: rgb(245, 240, 240);
+            height:1px;
+            width:1px;
+            margin-top:-20px;
+            font-size:20px;
+            
+        }
+        .salwar h4{
+            margin-left:250px;
+            color: rgb(76, 73, 73);
+            margin-top:3px;
+        } 
+        .skirt{
+            height:350px;
+            width:300px;
+            background-color: aliceblue;
+            margin-left:20px;
+            margin-top:50px;
+            border-top-right-radius:10px;
+            border-top-left-radius:10px;
+            border-bottom-left-radius:10px;
+            border-bottom-right-radius:10px;
+        }
+        .skirt img{
+            height:200px;
+            width:250px;
+            margin:24px;
+            border-top-right-radius:10px;
+            border-top-left-radius:10px;
+            border-bottom-left-radius:10px;
+            border-bottom-right-radius:10px;
+        }
+        .skirt p{
+            color:gray;
+            margin-top:5px;
+            margin-left:10px;
+        }
+        .skirt h2{
+            margin-left:10px;
+        }
+        .rating5{
+            height:30px;
+            width:50px;
+            background-color: rgb(16, 192, 34);
+            display: flex;
+            align-items: center;
+            border-top-right-radius:5px;
+            border-top-left-radius:5px;
+            border-bottom-left-radius:5px;
+            border-bottom-right-radius:5px;
+            margin-left:230px;
+            margin-top:-50px;
+
+        }
+        .rating5 p{
+            color: rgb(245, 240, 240);
+            margin-top:1px;
+        }
+        .rating5 span{
+            color: rgb(245, 240, 240);
+            height:1px;
+            width:1px;
+            margin-top:-20px;
+            font-size:20px;
+            
+        }
+        .skirt h4{
+            margin-left:250px;
+            color: rgb(76, 73, 73);
+            margin-top:3px;
+        } 
+        
+        .anarkali{
+            height:350px;
+            width:300px;
+            background-color: aliceblue;
+            margin-left:329px;
+            margin-top:-350px;
+            border-top-right-radius:10px;
+            border-top-left-radius:10px;
+            border-bottom-left-radius:10px;
+            border-bottom-right-radius:10px;
+        }
+        .anarkali img{
+            height:200px;
+            width:250px;
+            margin:24px;
+            border-top-right-radius:10px;
+            border-top-left-radius:10px;
+            border-bottom-left-radius:10px;
+            border-bottom-right-radius:10px;
+        }
+        .anarkali p{
+            color:gray;
+            margin-top:5px;
+            margin-left:10px;
+        }
+        .anarkali h2{
+            margin-left:10px;
+        }
+        .rating6{
+            height:30px;
+            width:50px;
+            background-color: rgb(16, 192, 34);
+            display: flex;
+            align-items: center;
+            border-top-right-radius:5px;
+            border-top-left-radius:5px;
+            border-bottom-left-radius:5px;
+            border-bottom-right-radius:5px;
+            margin-left:230px;
+            margin-top:-50px;
+
+        }
+        .rating6 p{
+            color: rgb(245, 240, 240);
+            margin-top:1px;
+        }
+        .rating6 span{
+            color: rgb(245, 240, 240);
+            height:1px;
+            width:1px;
+            margin-top:-20px;
+            font-size:20px;
+            
+        }
+        .anarkali h4{
+            margin-left:250px;
+            color: rgb(76, 73, 73);
+            margin-top:3px;
+        } 
+        .patiala{
+            height:350px;
+            width:300px;
+            background-color: aliceblue;
+            margin-left:640px;
+            margin-top:-350px;
+            border-top-right-radius:10px;
+            border-top-left-radius:10px;
+            border-bottom-left-radius:10px;
+            border-bottom-right-radius:10px;
+        }
+        .patiala img{
+            height:200px;
+            width:250px;
+            margin:24px;
+            border-top-right-radius:10px;
+            border-top-left-radius:10px;
+            border-bottom-left-radius:10px;
+            border-bottom-right-radius:10px;
+        }
+        .patiala p{
+            color:gray;
+            margin-top:5px;
+            margin-left:10px;
+        }
+        .patiala h2{
+            margin-left:10px;
+        }
+        .rating7{
+            height:30px;
+            width:50px;
+            background-color: rgb(16, 192, 34);
+            display: flex;
+            align-items: center;
+            border-top-right-radius:5px;
+            border-top-left-radius:5px;
+            border-bottom-left-radius:5px;
+            border-bottom-right-radius:5px;
+            margin-left:230px;
+            margin-top:-50px;
+
+        }
+        .rating7 p{
+            color: rgb(245, 240, 240);
+            margin-top:1px;
+        }
+        .rating7 span{
+            color: rgb(245, 240, 240);
+            height:1px;
+            width:1px;
+            margin-top:-20px;
+            font-size:20px;
+            
+        }
+        .patiala h4{
+            margin-left:250px;
+            color: rgb(76, 73, 73);
+            margin-top:3px;
+        } 
+        .frocks{
+            height:350px;
+            width:300px;
+            background-color: aliceblue;
+            margin-left:950px;
+            margin-top:-350px;
+            border-top-right-radius:10px;
+            border-top-left-radius:10px;
+            border-bottom-left-radius:10px;
+            border-bottom-right-radius:10px;
+        }
+        .frocks img{
+            height:200px;
+            width:250px;
+            margin:24px;
+            border-top-right-radius:10px;
+            border-top-left-radius:10px;
+            border-bottom-left-radius:10px;
+            border-bottom-right-radius:10px;
+        }
+        .frocks p{
+            color:gray;
+            margin-top:5px;
+            margin-left:10px;
+        }
+        .frocks h2{
+            margin-left:10px;
+        }
+        .rating8{
+            height:30px;
+            width:50px;
+            background-color: rgb(16, 192, 34);
+            display: flex;
+            align-items: center;
+            border-top-right-radius:5px;
+            border-top-left-radius:5px;
+            border-bottom-left-radius:5px;
+            border-bottom-right-radius:5px;
+            margin-left:230px;
+            margin-top:-50px;
+
+        }
+        .rating8 p{
+            color: rgb(245, 240, 240);
+            margin-top:1px;
+        }
+        .rating8 span{
+            color: rgb(245, 240, 240);
+            height:1px;
+            width:1px;
+            margin-top:-20px;
+            font-size:20px;
+            
+        }
+        .frocks h4{
+            margin-left:250px;
+            color: rgb(76, 73, 73);
+            margin-top:3px;
+        } 
+        .cloth-aa{
+            background-image:url("bg2.jpg");
+            height:850px;
+            width:100%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+        }
+        .lehanga1{
+            height:350px;
+            width:300px;
+            background-color: aliceblue;
+            margin-left:330px;
+            margin-top:10px;
+            border-top-right-radius:10px;
+            border-top-left-radius:10px;
+            border-bottom-left-radius:10px;
+            border-bottom-right-radius:10px;
+        }
+        .lehanga1 img{
+            height:200px;
+            width:250px;
+            margin:24px;
+            border-top-right-radius:10px;
+            border-top-left-radius:10px;
+            border-bottom-left-radius:10px;
+            border-bottom-right-radius:10px;
+        }
+        .lehanga1 p{
+            color:gray;
+            margin-top:5px;
+            margin-left:10px;
+        }
+        .lehanga1 h2{
+            margin-left:10px;
+        }
+        .rating21{
+            height:30px;
+            width:50px;
+            background-color: rgb(16, 192, 34);
+            display: flex;
+            align-items: center;
+            border-top-right-radius:5px;
+            border-top-left-radius:5px;
+            border-bottom-left-radius:5px;
+            border-bottom-right-radius:5px;
+            margin-left:230px;
+            margin-top:-50px;
+
+        }
+        .rating21 p{
+            color: rgb(245, 240, 240);
+            margin-top:1px;
+        }
+        .rating21 span{
+            color: rgb(245, 240, 240);
+            height:1px;
+            width:1px;
+            margin-top:-20px;
+            font-size:20px;
+            
+        }
+        .lehanga1 h4{
+            margin-left:250px;
+            color: rgb(76, 73, 73);
+            margin-top:3px;
+        }
+        .frock1{
+            height:350px;
+            width:300px;
+            background-color: aliceblue;
+            margin-left:640px;
+            margin-top:-350px;
+            border-top-right-radius:10px;
+            border-top-left-radius:10px;
+            border-bottom-left-radius:10px;
+            border-bottom-right-radius:10px;
+        }
+        .frock1 img{
+            height:200px;
+            width:250px;
+            margin:24px;
+            border-top-right-radius:10px;
+            border-top-left-radius:10px;
+            border-bottom-left-radius:10px;
+            border-bottom-right-radius:10px;
+        }
+        .frock1 p{
+            color:gray;
+            margin-top:5px;
+            margin-left:10px;
+        }
+        .frock1 h2{
+            margin-left:10px;
+        }
+        .rating22{
+            height:30px;
+            width:50px;
+            background-color: rgb(16, 192, 34);
+            display: flex;
+            align-items: center;
+            border-top-right-radius:5px;
+            border-top-left-radius:5px;
+            border-bottom-left-radius:5px;
+            border-bottom-right-radius:5px;
+            margin-left:230px;
+            margin-top:-50px;
+
+        }
+        .rating22 p{
+            color: rgb(245, 240, 240);
+            margin-top:1px;
+        }
+        .rating22 span{
+            color: rgb(245, 240, 240);
+            height:1px;
+            width:1px;
+            margin-top:-20px;
+            font-size:20px;
+            
+        }
+        .frock1 h4{
+            margin-left:250px;
+            color: rgb(76, 73, 73);
+            margin-top:3px;
+        }
+        .saree1{
+            height:350px;
+            width:300px;
+            background-color: aliceblue;
+            margin-left:20px;
+            margin-top:-350px;
+            border-top-right-radius:10px;
+            border-top-left-radius:10px;
+            border-bottom-left-radius:10px;
+            border-bottom-right-radius:10px;
+        }
+        .saree1 img{
+            height:200px;
+            width:250px;
+            margin:24px;
+            border-top-right-radius:10px;
+            border-top-left-radius:10px;
+            border-bottom-left-radius:10px;
+            border-bottom-right-radius:10px;
+        }
+        .saree1 p{
+            color:gray;
+            margin-top:5px;
+            margin-left:10px;
+        }
+        .saree1 h2{
+            margin-left:10px;
+        }
+        .rating23{
+            height:30px;
+            width:50px;
+            background-color: rgb(16, 192, 34);
+            display: flex;
+            align-items: center;
+            border-top-right-radius:5px;
+            border-top-left-radius:5px;
+            border-bottom-left-radius:5px;
+            border-bottom-right-radius:5px;
+            margin-left:230px;
+            margin-top:-50px;
+
+        }
+        .rating23 p{
+            color: rgb(245, 240, 240);
+            margin-top:1px;
+        }
+        .rating23 span{
+            color: rgb(245, 240, 240);
+            height:1px;
+            width:1px;
+            margin-top:-20px;
+            font-size:20px;
+            
+        }
+        .saree1 h4{
+            margin-left:250px;
+            color: rgb(76, 73, 73);
+            margin-top:3px;
+        } 
+        .skirt1{
+            height:350px;
+            width:300px;
+            background-color: aliceblue;
+            margin-left:950px;
+            margin-top:-350px;
+            border-top-right-radius:10px;
+            border-top-left-radius:10px;
+            border-bottom-left-radius:10px;
+            border-bottom-right-radius:10px;
+        }
+        .skirt1 img{
+            height:200px;
+            width:250px;
+            margin:24px;
+            border-top-right-radius:10px;
+            border-top-left-radius:10px;
+            border-bottom-left-radius:10px;
+            border-bottom-right-radius:10px;
+        }
+        .skirt1 p{
+            color:gray;
+            margin-top:5px;
+            margin-left:10px;
+        }
+        .skirt1 h2{
+            margin-left:10px;
+        }
+        .rating24{
+            height:30px;
+            width:50px;
+            background-color: rgb(16, 192, 34);
+            display: flex;
+            align-items: center;
+            border-top-right-radius:5px;
+            border-top-left-radius:5px;
+            border-bottom-left-radius:5px;
+            border-bottom-right-radius:5px;
+            margin-left:230px;
+            margin-top:-50px;
+
+        }
+        .rating24 p{
+            color: rgb(245, 240, 240);
+            margin-top:1px;
+        }
+        .rating24 span{
+            color: rgb(245, 240, 240);
+            height:1px;
+            width:1px;
+            margin-top:-20px;
+            font-size:20px;
+            
+        }
+        .skirt1 h4{
+            margin-left:250px;
+            color: rgb(76, 73, 73);
+            margin-top:3px;
+        } 
+        .tshirt1{
+            height:350px;
+            width:300px;
+            background-color: aliceblue;
+            margin-left:20px;
+            margin-top:50px;
+            border-top-right-radius:10px;
+            border-top-left-radius:10px;
+            border-bottom-left-radius:10px;
+            border-bottom-right-radius:10px;
+        }
+        .tshirt1 img{
+            height:200px;
+            width:250px;
+            margin:24px;
+            border-top-right-radius:10px;
+            border-top-left-radius:10px;
+            border-bottom-left-radius:10px;
+            border-bottom-right-radius:10px;
+        }
+        .tshirt1 p{
+            color:gray;
+            margin-top:5px;
+            margin-left:10px;
+        }
+        .tshirt1 h2{
+            margin-left:10px;
+        }
+        .rating25{
+            height:30px;
+            width:50px;
+            background-color: rgb(16, 192, 34);
+            display: flex;
+            align-items: center;
+            border-top-right-radius:5px;
+            border-top-left-radius:5px;
+            border-bottom-left-radius:5px;
+            border-bottom-right-radius:5px;
+            margin-left:230px;
+            margin-top:-50px;
+
+        }
+        .rating25 p{
+            color: rgb(245, 240, 240);
+            margin-top:1px;
+        }
+        .rating25 span{
+            color: rgb(245, 240, 240);
+            height:1px;
+            width:1px;
+            margin-top:-20px;
+            font-size:20px;
+            
+        }
+        .tshirt1 h4{
+            margin-left:250px;
+            color: rgb(76, 73, 73);
+            margin-top:3px;
+        } 
+        
+        .pyjamas1{
+            height:350px;
+            width:300px;
+            background-color: aliceblue;
+            margin-left:329px;
+            margin-top:-350px;
+            border-top-right-radius:10px;
+            border-top-left-radius:10px;
+            border-bottom-left-radius:10px;
+            border-bottom-right-radius:10px;
+        }
+        .pyjamas1 img{
+            height:200px;
+            width:250px;
+            margin:24px;
+            border-top-right-radius:10px;
+            border-top-left-radius:10px;
+            border-bottom-left-radius:10px;
+            border-bottom-right-radius:10px;
+        }
+        .pyjamas1 p{
+            color:gray;
+            margin-top:5px;
+            margin-left:10px;
+        }
+        .pyjamas1 h2{
+            margin-left:10px;
+        }
+        .rating26{
+            height:30px;
+            width:50px;
+            background-color: rgb(16, 192, 34);
+            display: flex;
+            align-items: center;
+            border-top-right-radius:5px;
+            border-top-left-radius:5px;
+            border-bottom-left-radius:5px;
+            border-bottom-right-radius:5px;
+            margin-left:230px;
+            margin-top:-50px;
+
+        }
+        .rating26 p{
+            color: rgb(245, 240, 240);
+            margin-top:1px;
+        }
+        .rating26 span{
+            color: rgb(245, 240, 240);
+            height:1px;
+            width:1px;
+            margin-top:-20px;
+            font-size:20px;
+            
+        }
+        .pyjamas1 h4{
+            margin-left:250px;
+            color: rgb(76, 73, 73);
+            margin-top:3px;
+        } 
+        .waistcoat1{
+            height:350px;
+            width:300px;
+            background-color: aliceblue;
+            margin-left:640px;
+            margin-top:-350px;
+            border-top-right-radius:10px;
+            border-top-left-radius:10px;
+            border-bottom-left-radius:10px;
+            border-bottom-right-radius:10px;
+        }
+        .waistcoat1 img{
+            height:200px;
+            width:250px;
+            margin:24px;
+            border-top-right-radius:10px;
+            border-top-left-radius:10px;
+            border-bottom-left-radius:10px;
+            border-bottom-right-radius:10px;
+        }
+        .waistcoat1 p{
+            color:gray;
+            margin-top:5px;
+            margin-left:10px;
+        }
+        .waistcoat1 h2{
+            margin-left:10px;
+        }
+        .rating27{
+            height:30px;
+            width:50px;
+            background-color: rgb(16, 192, 34);
+            display: flex;
+            align-items: center;
+            border-top-right-radius:5px;
+            border-top-left-radius:5px;
+            border-bottom-left-radius:5px;
+            border-bottom-right-radius:5px;
+            margin-left:230px;
+            margin-top:-50px;
+
+        }
+        .rating27 p{
+            color: rgb(245, 240, 240);
+            margin-top:1px;
+        }
+        .rating27 span{
+            color: rgb(245, 240, 240);
+            height:1px;
+            width:1px;
+            margin-top:-20px;
+            font-size:20px;
+            
+        }
+        .waistcoat1 h4{
+            margin-left:250px;
+            color: rgb(76, 73, 73);
+            margin-top:3px;
+        } 
+        .dhoti1{
+            height:350px;
+            width:300px;
+            background-color: aliceblue;
+            margin-left:950px;
+            margin-top:-350px;
+            border-top-right-radius:10px;
+            border-top-left-radius:10px;
+            border-bottom-left-radius:10px;
+            border-bottom-right-radius:10px;
+        }
+        .dhoti1 img{
+            height:200px;
+            width:250px;
+            margin:24px;
+            border-top-right-radius:10px;
+            border-top-left-radius:10px;
+            border-bottom-left-radius:10px;
+            border-bottom-right-radius:10px;
+        }
+        .dhoti1 p{
+            color:gray;
+            margin-top:5px;
+            margin-left:10px;
+        }
+        .dhoti1 h2{
+            margin-left:10px;
+        }
+        .rating28{
+            height:30px;
+            width:50px;
+            background-color: rgb(16, 192, 34);
+            display: flex;
+            align-items: center;
+            border-top-right-radius:5px;
+            border-top-left-radius:5px;
+            border-bottom-left-radius:5px;
+            border-bottom-right-radius:5px;
+            margin-left:230px;
+            margin-top:-50px;
+
+        }
+        .rating28 p{
+            color: rgb(245, 240, 240);
+            margin-top:1px;
+        }
+        .rating28 span{
+            color: rgb(245, 240, 240);
+            height:1px;
+            width:1px;
+            margin-top:-20px;
+            font-size:20px;
+            
+        }
+        .dhoti1 h4{
+            margin-left:250px;
+            color: rgb(76, 73, 73);
+            margin-top:3px;
+        } 
+        .cloth-a{
+            background-image:url("bg2.jpg");
+            height:850px;
+            width:100%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+        }
+        .tshirt{
+            height:350px;
+            width:300px;
+            background-color: aliceblue;
+            margin-left:330px;
+            margin-top:10px;
+            border-top-right-radius:10px;
+            border-top-left-radius:10px;
+            border-bottom-left-radius:10px;
+            border-bottom-right-radius:10px;
+        }
+        .tshirt img{
+            height:200px;
+            width:250px;
+            margin:24px;
+            border-top-right-radius:10px;
+            border-top-left-radius:10px;
+            border-bottom-left-radius:10px;
+            border-bottom-right-radius:10px;
+        }
+        .tshirt p{
+            color:gray;
+            margin-top:5px;
+            margin-left:10px;
+        }
+        .tshirt h2{
+            margin-left:10px;
+        }
+        .rating11{
+            height:30px;
+            width:50px;
+            background-color: rgb(16, 192, 34);
+            display: flex;
+            align-items: center;
+            border-top-right-radius:5px;
+            border-top-left-radius:5px;
+            border-bottom-left-radius:5px;
+            border-bottom-right-radius:5px;
+            margin-left:230px;
+            margin-top:-50px;
+
+        }
+        .rating11 p{
+            color: rgb(245, 240, 240);
+            margin-top:1px;
+        }
+        .rating11 span{
+            color: rgb(245, 240, 240);
+            height:1px;
+            width:1px;
+            margin-top:-20px;
+            font-size:20px;
+            
+        }
+        .tshirt h4{
+            margin-left:250px;
+            color: rgb(76, 73, 73);
+            margin-top:3px;
+        }
+        .formal{
+            height:350px;
+            width:300px;
+            background-color: aliceblue;
+            margin-left:640px;
+            margin-top:-350px;
+            border-top-right-radius:10px;
+            border-top-left-radius:10px;
+            border-bottom-left-radius:10px;
+            border-bottom-right-radius:10px;
+        }
+        .formal img{
+            height:200px;
+            width:250px;
+            margin:24px;
+            border-top-right-radius:10px;
+            border-top-left-radius:10px;
+            border-bottom-left-radius:10px;
+            border-bottom-right-radius:10px;
+        }
+        .formal p{
+            color:gray;
+            margin-top:5px;
+            margin-left:10px;
+        }
+        .formal h2{
+            margin-left:10px;
+        }
+        .rating12{
+            height:30px;
+            width:50px;
+            background-color: rgb(16, 192, 34);
+            display: flex;
+            align-items: center;
+            border-top-right-radius:5px;
+            border-top-left-radius:5px;
+            border-bottom-left-radius:5px;
+            border-bottom-right-radius:5px;
+            margin-left:230px;
+            margin-top:-50px;
+
+        }
+        .rating12 p{
+            color: rgb(245, 240, 240);
+            margin-top:1px;
+        }
+        .rating12 span{
+            color: rgb(245, 240, 240);
+            height:1px;
+            width:1px;
+            margin-top:-20px;
+            font-size:20px;
+            
+        }
+        .formal h4{
+            margin-left:250px;
+            color: rgb(76, 73, 73);
+            margin-top:3px;
+        }
+        .casual{
+            height:350px;
+            width:300px;
+            background-color: aliceblue;
+            margin-left:20px;
+            margin-top:-350px;
+            border-top-right-radius:10px;
+            border-top-left-radius:10px;
+            border-bottom-left-radius:10px;
+            border-bottom-right-radius:10px;
+        }
+        .casual img{
+            height:200px;
+            width:250px;
+            margin:24px;
+            border-top-right-radius:10px;
+            border-top-left-radius:10px;
+            border-bottom-left-radius:10px;
+            border-bottom-right-radius:10px;
+        }
+        .casual p{
+            color:gray;
+            margin-top:5px;
+            margin-left:10px;
+        }
+        .casual h2{
+            margin-left:10px;
+        }
+        .rating13{
+            height:30px;
+            width:50px;
+            background-color: rgb(16, 192, 34);
+            display: flex;
+            align-items: center;
+            border-top-right-radius:5px;
+            border-top-left-radius:5px;
+            border-bottom-left-radius:5px;
+            border-bottom-right-radius:5px;
+            margin-left:230px;
+            margin-top:-50px;
+
+        }
+        .rating13 p{
+            color: rgb(245, 240, 240);
+            margin-top:1px;
+        }
+        .rating13 span{
+            color: rgb(245, 240, 240);
+            height:1px;
+            width:1px;
+            margin-top:-20px;
+            font-size:20px;
+            
+        }
+        .casual h4{
+            margin-left:250px;
+            color: rgb(76, 73, 73);
+            margin-top:3px;
+        } 
+        .jeans{
+            height:350px;
+            width:300px;
+            background-color: aliceblue;
+            margin-left:950px;
+            margin-top:-350px;
+            border-top-right-radius:10px;
+            border-top-left-radius:10px;
+            border-bottom-left-radius:10px;
+            border-bottom-right-radius:10px;
+        }
+        .jeans img{
+            height:200px;
+            width:250px;
+            margin:24px;
+            border-top-right-radius:10px;
+            border-top-left-radius:10px;
+            border-bottom-left-radius:10px;
+            border-bottom-right-radius:10px;
+        }
+        .jeans p{
+            color:gray;
+            margin-top:5px;
+            margin-left:10px;
+        }
+        .jeans h2{
+            margin-left:10px;
+        }
+        .rating14{
+            height:30px;
+            width:50px;
+            background-color: rgb(16, 192, 34);
+            display: flex;
+            align-items: center;
+            border-top-right-radius:5px;
+            border-top-left-radius:5px;
+            border-bottom-left-radius:5px;
+            border-bottom-right-radius:5px;
+            margin-left:230px;
+            margin-top:-50px;
+
+        }
+        .rating14 p{
+            color: rgb(245, 240, 240);
+            margin-top:1px;
+        }
+        .rating14 span{
+            color: rgb(245, 240, 240);
+            height:1px;
+            width:1px;
+            margin-top:-20px;
+            font-size:20px;
+            
+        }
+        .jeans h4{
+            margin-left:250px;
+            color: rgb(76, 73, 73);
+            margin-top:3px;
+        } 
+        .menkurtis{
+            height:350px;
+            width:300px;
+            background-color: aliceblue;
+            margin-left:20px;
+            margin-top:50px;
+            border-top-right-radius:10px;
+            border-top-left-radius:10px;
+            border-bottom-left-radius:10px;
+            border-bottom-right-radius:10px;
+        }
+        .menkurtis img{
+            height:200px;
+            width:250px;
+            margin:24px;
+            border-top-right-radius:10px;
+            border-top-left-radius:10px;
+            border-bottom-left-radius:10px;
+            border-bottom-right-radius:10px;
+        }
+        .menkurtis p{
+            color:gray;
+            margin-top:5px;
+            margin-left:10px;
+        }
+        .menkurtis h2{
+            margin-left:10px;
+        }
+        .rating15{
+            height:30px;
+            width:50px;
+            background-color: rgb(16, 192, 34);
+            display: flex;
+            align-items: center;
+            border-top-right-radius:5px;
+            border-top-left-radius:5px;
+            border-bottom-left-radius:5px;
+            border-bottom-right-radius:5px;
+            margin-left:230px;
+            margin-top:-50px;
+
+        }
+        .rating15 p{
+            color: rgb(245, 240, 240);
+            margin-top:1px;
+        }
+        .rating15 span{
+            color: rgb(245, 240, 240);
+            height:1px;
+            width:1px;
+            margin-top:-20px;
+            font-size:20px;
+            
+        }
+        .menkurtis h4{
+            margin-left:250px;
+            color: rgb(76, 73, 73);
+            margin-top:3px;
+        } 
+        
+        .pyjamas{
+            height:350px;
+            width:300px;
+            background-color: aliceblue;
+            margin-left:329px;
+            margin-top:-350px;
+            border-top-right-radius:10px;
+            border-top-left-radius:10px;
+            border-bottom-left-radius:10px;
+            border-bottom-right-radius:10px;
+        }
+        .pyjamas img{
+            height:200px;
+            width:250px;
+            margin:24px;
+            border-top-right-radius:10px;
+            border-top-left-radius:10px;
+            border-bottom-left-radius:10px;
+            border-bottom-right-radius:10px;
+        }
+        .pyjamas p{
+            color:gray;
+            margin-top:5px;
+            margin-left:10px;
+        }
+        .pyjamas h2{
+            margin-left:10px;
+        }
+        .rating16{
+            height:30px;
+            width:50px;
+            background-color: rgb(16, 192, 34);
+            display: flex;
+            align-items: center;
+            border-top-right-radius:5px;
+            border-top-left-radius:5px;
+            border-bottom-left-radius:5px;
+            border-bottom-right-radius:5px;
+            margin-left:230px;
+            margin-top:-50px;
+
+        }
+        .rating16 p{
+            color: rgb(245, 240, 240);
+            margin-top:1px;
+        }
+        .rating16 span{
+            color: rgb(245, 240, 240);
+            height:1px;
+            width:1px;
+            margin-top:-20px;
+            font-size:20px;
+            
+        }
+        .pyjamas h4{
+            margin-left:250px;
+            color: rgb(76, 73, 73);
+            margin-top:3px;
+        } 
+        .waistcoat{
+            height:350px;
+            width:300px;
+            background-color: aliceblue;
+            margin-left:640px;
+            margin-top:-350px;
+            border-top-right-radius:10px;
+            border-top-left-radius:10px;
+            border-bottom-left-radius:10px;
+            border-bottom-right-radius:10px;
+        }
+        .waistcoat img{
+            height:200px;
+            width:250px;
+            margin:24px;
+            border-top-right-radius:10px;
+            border-top-left-radius:10px;
+            border-bottom-left-radius:10px;
+            border-bottom-right-radius:10px;
+        }
+        .waistcoat p{
+            color:gray;
+            margin-top:5px;
+            margin-left:10px;
+        }
+        .waistcoat h2{
+            margin-left:10px;
+        }
+        .rating17{
+            height:30px;
+            width:50px;
+            background-color: rgb(16, 192, 34);
+            display: flex;
+            align-items: center;
+            border-top-right-radius:5px;
+            border-top-left-radius:5px;
+            border-bottom-left-radius:5px;
+            border-bottom-right-radius:5px;
+            margin-left:230px;
+            margin-top:-50px;
+
+        }
+        .rating17 p{
+            color: rgb(245, 240, 240);
+            margin-top:1px;
+        }
+        .rating17 span{
+            color: rgb(245, 240, 240);
+            height:1px;
+            width:1px;
+            margin-top:-20px;
+            font-size:20px;
+            
+        }
+        .waistcoat h4{
+            margin-left:250px;
+            color: rgb(76, 73, 73);
+            margin-top:3px;
+        } 
+        .dhoti{
+            height:350px;
+            width:300px;
+            background-color: aliceblue;
+            margin-left:950px;
+            margin-top:-350px;
+            border-top-right-radius:10px;
+            border-top-left-radius:10px;
+            border-bottom-left-radius:10px;
+            border-bottom-right-radius:10px;
+        }
+        .dhoti img{
+            height:200px;
+            width:250px;
+            margin:24px;
+            border-top-right-radius:10px;
+            border-top-left-radius:10px;
+            border-bottom-left-radius:10px;
+            border-bottom-right-radius:10px;
+        }
+        .dhoti p{
+            color:gray;
+            margin-top:5px;
+            margin-left:10px;
+        }
+        .dhoti h2{
+            margin-left:10px;
+        }
+        .rating18{
+            height:30px;
+            width:50px;
+            background-color: rgb(16, 192, 34);
+            display: flex;
+            align-items: center;
+            border-top-right-radius:5px;
+            border-top-left-radius:5px;
+            border-bottom-left-radius:5px;
+            border-bottom-right-radius:5px;
+            margin-left:230px;
+            margin-top:-50px;
+
+        }
+        .rating18 p{
+            color: rgb(245, 240, 240);
+            margin-top:1px;
+        }
+        .rating18 span{
+            color: rgb(245, 240, 240);
+            height:1px;
+            width:1px;
+            margin-top:-20px;
+            font-size:20px;
+            
+        }
+        .dhoti h4{
+            margin-left:250px;
+            color: rgb(76, 73, 73);
+            margin-top:3px;
+        } 
+        .about{
+            height: 300px;
+            width: 100%;
+            display: inline-block;
+            /* align-items: center; */
+            justify-content:space-around;
+            display:flex;
+            /* justify-content: center; */
+            margin-top:290px;
+
+         
+        }
+        .about1{
+            margin-top:-280px;
+            display: inline-block;
+            /* align-items: center; */
+            justify-content:space-around;
+            display:flex;
+            color: gray;
+            /* margin-top:5px; */
+        }
+        #gg{
+            height:60px;
+            width:80px;
+        }
+        #ap{
+            height:60px;
+            width:80px;
+        }
+        .about2{
+            /* margin-top:-280px; */
+            display: inline-block;
+            /* align-items: center; */
+            /* justify-content:space-around; */
+            display:flex;
+           margin-left:166px;
+           color: grey;
+           margin-top:-30px;
+        
+            /* margin-left:-171px; */
+        }
+        .about3{
+            /* margin-top:-280px; */
+            display: inline-block;
+            /* align-itms: center; */
+            justify-content:space-around;
+            display:flex;
+            margin-top:30px;
+            color: gray;
+            margin-left:-294px;
+        }
+        #faq{
+           position:relative;
+           left:315px;
+        }
+        #tc{
+           position:relative;
+           right:330px;
+        }
+        #kid{
+           position:relative;
+           left:88px;
+        }
+        .use{
+            margin-left:113px;
+            padding:5px;
+            
+        }
+        .use p{
+            color:grey;
+        }
+        .a8 img{
+            height:30px;
+            width:30px;
+            margin-top:10px;
+            
+        }
+        #fb{
+            margin-left:500px;
+            
+        }
+        .a8 h5{
+            margin-left:511px;
+            margin-top:-110px;
+        }
+        #con{
+            padding:5px;
+            margin:10px;
+        }
+        
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="nav-logo">
+              <img src="logo.png" alt="">
+        </div>
+        <div class="nav-items">
+            <a href="#d" id="aa"><b>Home</b></a>
+            <a href="#cloth1" id="aa"><b>Women</b></a>
+            <a href="#cloth-a1" id="aa"><b>Men</b></a>
+            <a href="#cloth-aa1" id="aa"><b>Kids</b></a>
+            <a href="#cloth1" id="aa"><b>Favourites</b></a>
+            <a href="#about" id="aa"><b>About</b></a>
+            
+        </div>
+    </nav >   
+    <div class="dress" id="d">
+        <img src="dress1.jpg" alt="">
+       
+    </div><br><br><br><br><br><br><br>
+    <h1><b>Women</b></h1><br>
+    <div class="cloth" id="cloth1"><br>
+        
+        <div class="saree">
+            <img src="c1.webp" alt="">
+            <h2><b>White Saree</b></h2>
+            <p>10% discount</p>
+            <div class="rating1"><p><b>4.2</b></p><span class="material-symbols-outlined">
+                star
+                </span>
+            </div>
+           <h4>&#8377;1000</h4></div>
+        <div class="lehanga">
+            <img src="c2.webp" alt="">
+            <h2><b>Lehanga</b></h2>
+            <p>15% discount</p>
+            <div class="rating2"><p><b>3.9</b></p><span class="material-symbols-outlined">
+                star
+                </span>
+            </div>
+           <h4>&#8377;2000</h4></div> 
+        <div class="kurtis">
+            <img src="c3.webp" alt="">
+            <h2><b>Kurti Set</b></h2>
+            <p>7% discount</p>
+            <div class="rating3"><p><b>3.9</b></p><span class="material-symbols-outlined">
+                star
+                </span>
+            </div>
+           <h4>&#8377;1500</h4></div>       
+        <div class="salwar">
+            <img src="c4.webp" alt="">
+            <h2><b>Salwar Set</b></h2>
+            <p>8% discount</p>
+            <div class="rating4"><p><b>4.1</b></p><span class="material-symbols-outlined">
+                star
+                </span>
+            </div>
+           <h4>&#8377;1500</h4></div> 
+        <div class="skirt">
+            <img src="c5.webp" alt="">
+            <h2><b>Skirt</b></h2>
+            <p>5% discount</p>
+            <div class="rating5"><p><b>4.5</b></p><span class="material-symbols-outlined">
+                star
+                </span>
+            </div>
+           <h4>&#8377;500</h4></div> 
+        <div class="anarkali">
+            <img src="c6.webp" alt="">
+            <h2><b>Anarkali</b></h2>
+            <p>20% discount</p>
+            <div class="rating6"><p><b>4.3</b></p><span class="material-symbols-outlined">
+                star
+                </span>
+            </div>
+           <h4>&#8377;1550</h4></div> 
+        <div class="patiala">
+            <img src="c7.webp" alt="">
+            <h2><b>Patiala</b></h2>
+            <p>5% discount</p>
+            <div class="rating7"><p><b>4.8</b></p><span class="material-symbols-outlined">
+                star
+                </span>
+            </div>
+           <h4>&#8377;550</h4></div> 
+        <div class="frocks">
+            <img src="c8.webp" alt="">
+            <h2><b>Frocks</b></h2>
+            <p>10% discount</p>
+            <div class="rating8"><p><b>4.8</b></p><span class="material-symbols-outlined">
+                star
+                </span>
+            </div>
+           <h4>&#8377;650</h4></div>       
+        
+    </div><br>
+    <h1><b>Men</b></h1><br>
+    <div class="cloth-a" id="cloth-a1"><br>
+        
+        <div class="tshirt">
+            <img src="c11.webp" alt="">
+            <h2><b>T-Shirt</b></h2>
+            <p>10% discount</p>
+            <div class="rating11"><p><b>4.2</b></p><span class="material-symbols-outlined">
+                star
+                </span>
+            </div>
+           <h4>&#8377;300</h4></div>
+        <div class="formal">
+            <img src="c12.webp" alt="">
+            <h2><b>Formals</b></h2>
+            <p>15% discount</p>
+            <div class="rating12"><p><b>3.9</b></p><span class="material-symbols-outlined">
+                star
+                </span>
+            </div>
+           <h4>&#8377;1000</h4></div> 
+        <div class="casual">
+            <img src="c13.webp" alt="">
+            <h2><b>Casuals</b></h2>
+            <p>7% discount</p>
+            <div class="rating13"><p><b>3.9</b></p><span class="material-symbols-outlined">
+                star
+                </span>
+            </div>
+           <h4>&#8377;1500</h4></div>       
+        <div class="jeans">
+            <img src="c14.webp" alt="">
+            <h2><b>Jeans</b></h2>
+            <p>8% discount</p>
+            <div class="rating14"><p><b>4.1</b></p><span class="material-symbols-outlined">
+                star
+                </span>
+            </div>
+           <h4>&#8377;1500</h4></div> 
+        <div class="menkurtis">
+            <img src="c15.webp" alt="">
+            <h2><b>Men Kurtis</b></h2>
+            <p>5% discount</p>
+            <div class="rating15"><p><b>4.5</b></p><span class="material-symbols-outlined">
+                star
+                </span>
+            </div>
+           <h4>&#8377;2500</h4></div> 
+        <div class="pyjamas">
+            <img src="c16.webp" alt="">
+            <h2><b>Pyjamas</b></h2>
+            <p>20% discount</p>
+            <div class="rating16"><p><b>4.3</b></p><span class="material-symbols-outlined">
+                star
+                </span>
+            </div>
+           <h4>&#8377;1550</h4></div> 
+        <div class="waistcoat">
+            <img src="c17.webp" alt="">
+            <h2><b>Waistcoat Pyjamas</b></h2>
+            <p>5% discount</p>
+            <div class="rating17"><p><b>4.8</b></p><span class="material-symbols-outlined">
+                star
+                </span>
+            </div>
+           <h4>&#8377;2550</h4></div> 
+        <div class="dhoti">
+            <img src="c18.webp" alt="">
+            <h2><b>Dhoti</b></h2>
+            <p>10% discount</p>
+            <div class="rating18"><p><b>4.8</b></p><span class="material-symbols-outlined">
+                star
+                </span>
+            </div>
+           <h4>&#8377;1650</h4></div>       
+        
+    </div><br>
+    <br>
+    <h1><b>Kids</b></h1><br>
+    <div class="cloth-aa" id="cloth-aa1"><br>
+        
+        <div class="lehanga1">
+            <img src="c21.webp" alt="">
+            <h2><b>Lehanga</b></h2>
+            <p>10% discount</p>
+            <div class="rating21"><p><b>4.2</b></p><span class="material-symbols-outlined">
+                star
+                </span>
+            </div>
+           <h4>&#8377;3000</h4></div>
+        <div class="frock1">
+            <img src="c22.webp" alt="">
+            <h2><b>Frocks</b></h2>
+            <p>15% discount</p>
+            <div class="rating22"><p><b>3.9</b></p><span class="material-symbols-outlined">
+                star
+                </span>
+            </div>
+           <h4>&#8377;1000</h4></div> 
+        <div class="saree1">
+            <img src="c23.webp" alt="">
+            <h2><b>Saree</b></h2>
+            <p>7% discount</p>
+            <div class="rating23"><p><b>3.9</b></p><span class="material-symbols-outlined">
+                star
+                </span>
+            </div>
+           <h4>&#8377;1500</h4></div>       
+        <div class="skirt1">
+            <img src="c24.webp" alt="">
+            <h2><b>Skirt</b></h2>
+            <p>8% discount</p>
+            <div class="rating24"><p><b>4.1</b></p><span class="material-symbols-outlined">
+                star
+                </span>
+            </div>
+           <h4>&#8377;1500</h4></div> 
+        <div class="tshirt1">
+            <img src="c25.webp" alt="">
+            <h2><b>T-Shirt</b></h2>
+            <p>5% discount</p>
+            <div class="rating25"><p><b>4.5</b></p><span class="material-symbols-outlined">
+                star
+                </span>
+            </div>
+           <h4>&#8377;2500</h4></div> 
+        <div class="pyjamas1">
+            <img src="c26.webp" alt="">
+            <h2><b>Pyjamas</b></h2>
+            <p>20% discount</p>
+            <div class="rating26"><p><b>4.3</b></p><span class="material-symbols-outlined">
+                star
+                </span>
+            </div>
+           <h4>&#8377;1550</h4></div> 
+        <div class="waistcoat1">
+            <img src="c27.webp" alt="">
+            <h2><b>Waistcoat Pyjamas</b></h2>
+            <p>5% discount</p>
+            <div class="rating27"><p><b>4.8</b></p><span class="material-symbols-outlined">
+                star
+                </span>
+            </div>
+           <h4>&#8377;2550</h4></div> 
+        <div class="dhoti1">
+            <img src="c28.webp" alt="">
+            <h2><b>Dhoti</b></h2>
+            <p>10% discount</p>
+            <div class="rating28"><p><b>4.8</b></p><span class="material-symbols-outlined">
+                star
+                </span>
+            </div>
+           <h4>&#8377;1650</h4></div>       
+        
+    </div><br>
+    <br>
+    <h1><b>Favourites</b></h1><br>
+    <div class="cloth" id="cloth1"><br>
+        
+        <div class="saree">
+            <img src="c1.webp" alt="">
+            <h2><b>White Saree</b></h2>
+            <p>10% discount</p>
+            <div class="rating1"><p><b>4.2</b></p><span class="material-symbols-outlined">
+                star
+                </span>
+            </div>
+           <h4>&#8377;1000</h4></div>
+        <div class="lehanga">
+            <img src="c2.webp" alt="">
+            <h2><b>Lehanga</b></h2>
+            <p>15% discount</p>
+            <div class="rating2"><p><b>3.9</b></p><span class="material-symbols-outlined">
+                star
+                </span>
+            </div>
+           <h4>&#8377;2000</h4></div> 
+        <div class="kurtis">
+            <img src="c3.webp" alt="">
+            <h2><b>Kurti Set</b></h2>
+            <p>7% discount</p>
+            <div class="rating3"><p><b>3.9</b></p><span class="material-symbols-outlined">
+                star
+                </span>
+            </div>
+           <h4>&#8377;1500</h4></div>       
+        <div class="salwar">
+            <img src="c4.webp" alt="">
+            <h2><b>Salwar Set</b></h2>
+            <p>8% discount</p>
+            <div class="rating4"><p><b>4.1</b></p><span class="material-symbols-outlined">
+                star
+                </span>
+            </div>
+           <h4>&#8377;1500</h4></div> 
+        <div class="skirt">
+            <img src="c5.webp" alt="">
+            <h2><b>Skirt</b></h2>
+            <p>5% discount</p>
+            <div class="rating5"><p><b>4.5</b></p><span class="material-symbols-outlined">
+                star
+                </span>
+            </div>
+           <h4>&#8377;500</h4></div> 
+        <div class="anarkali">
+            <img src="c6.webp" alt="">
+            <h2><b>Anarkali</b></h2>
+            <p>20% discount</p>
+            <div class="rating6"><p><b>4.3</b></p><span class="material-symbols-outlined">
+                star
+                </span>
+            </div>
+           <h4>&#8377;1550</h4></div> 
+        <div class="patiala">
+            <img src="c7.webp" alt="">
+            <h2><b>Patiala</b></h2>
+            <p>5% discount</p>
+            <div class="rating7"><p><b>4.8</b></p><span class="material-symbols-outlined">
+                star
+                </span>
+            </div>
+           <h4>&#8377;550</h4></div> 
+        <div class="frocks">
+            <img src="c8.webp" alt="">
+            <h2><b>Frocks</b></h2>
+            <p>10% discount</p>
+            <div class="rating8"><p><b>4.8</b></p><span class="material-symbols-outlined">
+                star
+                </span>
+            </div>
+           <h4>&#8377;650</h4></div>       
+        
+    </div><br>
+        <div class="about">
+            <div class="ab1"><b>ONLINE SHOPPING</b></div>
+            <div class="ab2"><b>CUSTOMER POLICIES</b></div>
+            <div class="ab3"><b>EXPERIENCE EMPIRE APP ONLINE</b></div>
+        </div>
+        <div class="about1">
+            <div class="ab11">Men</div>
+            <div class="ab12">Contact Us</div>
+            <div class="ab13">
+                <img src="gg.png" alt="" id="gg">
+                <img src="app.png" alt="" id="ap">
+            </div>
+        </div>
+        <div class="about2">
+            <div class="ab1">Women</div>
+            <div class="ab2" id="faq">FAQ</div>
+          
+        </div>
+        <div class="about3">
+            <div class="ab1" id="kid">Kids</div>
+            <div class="ab2" id="tc">T&C</div>
+          
+        </div>
+        <br>
+        <div class="use">
+            <h5>USEFUL LINKS</h5><br>
+            <p>Blog</p>
+            <p>Career</p>
+            <p>Site Map</p>
+            <p>Corporate Information</p>
+            <p>Whitehat</p>
+        </div>
+        <div class="a8" id="about">
+            <h5>KEEP IN TOUCH</h5><br>
+            <img src="fb.png" alt="" id="fb">
+            <img src="twitter.png" alt="">
+            <img src="utube.png" alt="">
+            <img src="linkedin.jpg" alt="">
+            <img src="insta.webp" alt="">
+        </div>
+        <br><br><br><br>
+        <hr>
+        <br>
+        <p id="con">By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies. All trademarks are properties of their respective owners. 2008-2023 © Zomato™ Ltd. All rights reserved.</p><br>
+</body>
+</html>
